@@ -1,0 +1,102 @@
+
+* {
+box-sizing: border-box;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+[class*="col-"] {
+  float: left;
+  padding: 15px;
+}
+
+html {
+  font-family: "Lucida Sans", sans-serif;
+  background-image:url("tlo.png");
+  
+}
+h1
+{
+	text-align:left;
+}
+h2
+{
+	text-align:center;
+	color:red;
+}
+h3
+{
+	text-align:center;
+	color:green;
+}
+
+
+.header {
+  background-color:black;
+  color:red;
+  padding: 15px;
+  text-align:center;
+  
+
+}
+
+.menu ul {
+  list-style-type: none;
+  text-align:center;
+  margin: 0;
+  padding: 0;
+}
+
+.menu li {
+  padding: 8px;
+  margin-bottom: 7px;
+  background-color: black;
+  color: red;
+  border: solid;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+ 
+}
+
+.menu li:hover {
+  background-color: grey;
+
+}
+
+.aside {
+
+  padding: 15px;
+  color: #54442B;
+  text-align: center;
+  font-size: 14px;
+  box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+  
+}
+
+.footer {
+  background-color: black;
+  color: red;
+  text-align: center;
+  font-size: 18px;
+  padding: 15px;
+  border: solid;
+
+ 
+}
+.srodek{
+	Background-color:black;
+	color:red;
+	border-style:solid;
+	
+}
+.prawo{
+	Background-color:black;
+	color:red;
+	border-style:solid;
+	
+}
+
